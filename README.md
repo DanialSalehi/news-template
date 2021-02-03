@@ -1,5 +1,5 @@
 # news-template
-
+(without css)only with [Vuetify](https://vuetifyjs.com/en/)
 ## Build Setup
 
 ```bash
