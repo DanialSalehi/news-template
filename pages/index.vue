@@ -252,6 +252,32 @@
               width="100%"
               contain
             ></v-img>
+            <v-sheet width="100%" outlined class="rounded mt-1">
+              <v-sheet width="100%" height="30" outlined class="rounded-t">
+                <div class="d-flex flex-row">
+                  <v-btn
+                    v-for="x in 5"
+                    width="20%"
+                    :key="x"
+                    small
+                    elevation="1"
+                  >
+                    ورزش</v-btn
+                  >
+                </div>
+              </v-sheet>
+            </v-sheet>
+            <div class="d-flex flex-culomn justify-center">
+              <v-sheet width="100%" elevation="1" class="pa-1 mb-1 rounded-b">
+                <div v-for="x in 8" class="py-1" :key="x">
+                  <h5>
+                    <v-icon color="red">mdi-pan-bottom-left</v-icon>
+                    مخالفت فراکسیون زنان با لغو مجازات زندان برای مهریه بیش از ۵
+                    سکه/در طرح مجلس فقط مردها دیده شده‌اند
+                  </h5>
+                </div>
+              </v-sheet>
+            </div>
           </v-flex>
           <v-flex class="ma-1 justify-center" md2>
             <v-sheet class="pa-1">
