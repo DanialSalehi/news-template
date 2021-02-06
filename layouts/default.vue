@@ -1,5 +1,8 @@
 <template>
   <v-app>
+    <v-btn right bottom fixed fab dark color="indigo darken-4">
+      <v-icon dark>mdi-bell-circle-outline</v-icon>
+    </v-btn>
     <v-main>
       <v-container>
         <nuxt />
